@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generator faktur</title>
+</head>
+<body>
+
+    <h2>Generator faktur</h2>
+
+    <form action="/login/" method="post">
+	<hr>
+
+	<h4>Nalezitosti zivnostniku </h4>
+        <div>
+            <label for="comp_name">Nazef firmy</label><br>
+            <input 
+                type="text" 
+                id="comp_name" 
+                name="comp_name" 
+                required
+            >
+        </div>
+
+        <br>
+
+        <div>
+            <label for="address">Sidlo</label><br>
+            <input 
+                type="text" 
+                id="address" 
+                name="address" 
+                required
+            >
+        </div>
+
+        <br>
+	<div>
+            <label for="ico">ICO</label><br>
+            <input 
+                type="text" 
+                id="ico" 
+                name="ico" 
+                required
+            >
+        </div>
+	<br>
+	<hr>
+	<h4>Nalezitosti faktury</h4>	
+	
+        <div>
+            <label for="dateOfCreation">Datum vystaveni</label><br>
+            <input 
+                type="text" 
+                id="dateOfCreation" 
+                name="dateOfCreation" 
+                required
+            >
+        </div>
+	<br>
+        <div>
+            <label for="invoiceNum">Cislo dokladu</label><br>
+            <input 
+                type="text" 
+                id="invoiceNum" 
+                name="invoiceNum" 
+                required
+            >
+        </div>
+	<hr>
+	<h4>Popis Polozek</h4>
+	<div>
+            <label for="username">Username:</label><br>
+            <input 
+                type="text" 
+                id="username" 
+                name="username" 
+                required
+            >
+        </div>
+	<br>
+	<div>
+            <label for="password">Heslo</label><br>
+            <input 
+                type="password" 
+                id="password" 
+                name="password" 
+                required
+            >
+        </div>
+        <button type="submit">Login</button>
+    </form>
+
+</body>
+</html>
+
